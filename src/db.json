@@ -169,7 +169,7 @@
       "type": "Earphone",
       "price": 499,
       "description": "Wired Earphones,Type-C Jack, 10mm Drivers, Signature Sound, in-Line Microphone, Integrated Controls, Voice Assistant & 120cm Cable",
-      "image": "/public/assets/boAt Bassheads 300C.webp",
+      "image": "/assets/boAt Bassheads 300C.webp",
       "featured": false
     },
     {
@@ -179,8 +179,8 @@
       "type": "TWS",
       "price": 799,
       "description": "50HRS Battery, Fast Charge, Dual Mics ENx Tech, Transparent LID, Low Latency, IPX4, IWP Tech, v5.3 Bluetooth Earbuds, TWS Ear Buds Wireless Earphones with mic ",
-      "image": "/public/assets/boAt Airdopes 311 Pro.webp",
-      "noBG": "/public/assets/boAt Airdopes 311 Pro.webp",
+      "image": "/assets/boAt Airdopes 311 Pro.webp",
+      "noBG": "/assets/boAt Airdopes 311 Pro.webp",
       "featured": true
     },
     {
@@ -190,7 +190,7 @@
       "type": "Neckband",
       "price": 1799,
       "description": "100HRS Battery,Spatial Audio,ANC(~32Db),Fast Charge(10Mins=24HRS),3Mics Aienx,13Mm Drivers,Power Earbuds,Bluetooth Neckband,in Ear Wireless with Mic Earphones ",
-      "image": "/public/assets/boAt Rockerz 255 ANC.webp",
+      "image": "/assets/boAt Rockerz 255 ANC.webp",
       "featured": false
     },
     {
@@ -200,7 +200,7 @@
       "type": "Headphone",
       "price": 999,
       "description": " Wireless Over Ear Headphone, Upto 60 Hours Backup, Gaming Mode, Dual Pairing, Rapid Charge, BT v5.4, AUX, 3 EQ Modes, ENC for Callling, Voice Assistant, Deep Bass",
-      "image": "/public/assets/ZEBRONICS Thunder NEO.jpg",
+      "image": "/assets/ZEBRONICS Thunder NEO.jpg",
       "featured": false
     },
     {
@@ -210,7 +210,7 @@
       "type": "Headphone",
       "price": 799,
       "description": "3.5mm Jack, Built in Microphone for Calling, 1.5 Meter Cable, Soft Ear Cushion, Adjustable Headband, Foldable Ear Cups and Lightweight Design",
-      "image": "/public/assets/ZEBRONICS Zeb-Storm.jpg",
+      "image": "/assets/ZEBRONICS Zeb-Storm.jpg",
       "featured": false
     },
     {
@@ -220,7 +220,7 @@
       "type": "Earphone",
       "price": 299,
       "description": "in Ear Type-C Wired Headphones with in-Line Mic, Metallic Design, Volume Control, 1.2M Cable, 10Mm Driver",
-      "image": "/public/assets/ZEBRONICS Buds C10.jpg",
+      "image": "/assets/ZEBRONICS Buds C10.jpg",
       "featured": false
     },
     {
@@ -230,8 +230,8 @@
       "type": "TWS",
       "price": 799,
       "description": "Upto 40 Hrs Backup, Dual EQ, Quad MIC ENC, 10mm Bass Drivers, Fast Charging, Bluetooth, Flash Connect,40ms Low Latency Gaming, LED Battery Indicator ",
-      "image": "/public/assets/ZEBRONICS PODS K2.jpg",
-      "noBG": "/public/assets/ZEBRONICS PODS K2 (No bg).png",
+      "image": "/assets/ZEBRONICS PODS K2.jpg",
+      "noBG": "/assets/ZEBRONICS PODS K2 (No bg).png",
       "featured": true
     },
     {
@@ -241,7 +241,7 @@
       "type": "Neckband",
       "price": 499,
       "description": "Rapid Charge, Dual Pairing, Magnetic earpiece,Voice Assistant with Mic",
-      "image": "/public/assets/ZEBRONICS Zeb Evolve.jpg",
+      "image": "/assets/ZEBRONICS Zeb Evolve.jpg",
       "featured": false
     },
     {
@@ -251,7 +251,7 @@
       "type": "Headphone",
       "price": 1999,
       "description": "up to 40 Hours Playtime, Pure Bass, Quick Charging, Dual Pairing, Bluetooth 5.0 & Voice Assistant Support for Mobile Phones",
-      "image": "/public/assets/JBL Tune 510BT.jpg",
+      "image": "/assets/JBL Tune 510BT.jpg",
       "featured": false
     },
     {
@@ -261,7 +261,7 @@
       "type": "Headphone",
       "price": 1999,
       "description": "Wired Over Ear Gaming Headphones with Mic, 40mm Realistic Dynamic Drivers, Detachable Boom Mic, 1kHz Sensitivity, Memory Foam Cushioning, PC/Mobile/PS/Xbox/Nintendo/VR Compatible",
-      "image": "/public/assets/JBL Quantum 100 Wired Over Ear Gaming Headphones.jpg",
+      "image": "/assets/JBL Quantum 100 Wired Over Ear Gaming Headphones.jpg",
       "featured": false
     },
     {
@@ -271,7 +271,7 @@
       "type": "Earphone",
       "price": 449,
       "description": "Wired in Ear Headphones with Mic, One Button Multi-Function Remote, Lightweight & Comfortable fit",
-      "image": "/public/assets/JBL C50HI.jpg",
+      "image": "/assets/JBL C50HI.jpg",
       "featured": false
     },
     {
@@ -281,8 +281,8 @@
       "type": "TWS",
       "price": 3999,
       "description": "Wireless BluetoothV5.3, Active Noise Cancellation Earbuds,Multi Connect, App for Customized Extra Bass Eq, Relax Mode,Speed Charge, 40H Playback, Fast Pair,4 Mics,IP54",
-      "image": "/public/assets/JBL Wave Beam 2 Ear Buds.jpg",
-      "noBG": "/public/assets/JBL Wave Beam 2 Ear Buds (No bg).png",
+      "image": "/assets/JBL Wave Beam 2 Ear Buds.jpg",
+      "noBG": "/assets/JBL Wave Beam 2 Ear Buds (No bg).png",
       "featured": true
     },
     {
@@ -292,7 +292,7 @@
       "type": "Headphone",
       "price": 1490,
       "description": "On-the-ear (Circumaural), Closed Back, Wired, 10 Hz (Min) - 24 kHz (Max) Frequency Response, 24 ohm Impedance, 98 dB/mW (Power On) Sensitivity ,1.2 m L-shape Cord",
-      "image": "/public/assets/Sony MDR-ZX110AP.jpg",
+      "image": "/assets/Sony MDR-ZX110AP.jpg",
       "featured": false
     },
     {
@@ -302,7 +302,7 @@
       "type": "Earphone",
       "price": 1499,
       "description": "EX Stereo Headphones with Mic",
-      "image": "/public/assets/Sony MDR-EX15AP EX Stereo Headphones.jpg",
+      "image": "/assets/Sony MDR-EX15AP EX Stereo Headphones.jpg",
       "featured": false
     },
     {
@@ -312,7 +312,7 @@
       "type": "TWS",
       "price": 4220,
       "description": " Wireless Bluetooth Earbuds with Mic, TWS, in Ear, Ambient Sound Mode, Small and Comfortable, IPX4, Quick Charge, Multipoint Connectivity, Customized EQ, Up to 22 Hours Battery",
-      "image": "/public/assets/Sony WF-C510.jpg",
+      "image": "/assets/Sony WF-C510.jpg",
       "featured": false
     },
     {
@@ -322,7 +322,7 @@
       "type": "Neckband",
       "price": 1699,
       "description": "Wireless Neckband with Customizable Equalizer for Deep Bass & 25 Hrs Battery, DSEE-Upscale, Splash Proof, 360RA, Fast Pair, in Ear Bluetooth Headset with Mic for Phone Calls",
-      "image": "/public/assets/Sony WI-C100.jpg",
+      "image": "/assets/Sony WI-C100.jpg",
       "featured": false
     },
     {
@@ -332,7 +332,7 @@
       "type": "Headphone",
       "price": 59900,
       "description": "Wireless Over-Ear Headphones, Pro-Level Active Noise Cancellation, Transparency Mode, Personalised Spatial Audio, USB-C Charging, Bluetooth Headphones for iPhone ",
-      "image": "/public/assets/Apple AirPods Max.jpg",
+      "image": "/assets/Apple AirPods Max.jpg",
       "featured": false
     },
     {
@@ -352,7 +352,7 @@
       "type": "Earphone",
       "price": 1599,
       "description": " Deliver up to 2x more Active Noise Cancellation than the previous generation, with Transparency mode that enables you to hear the world around you, and all-new Adaptive Audio that dynamically tailors noise control to your environment",
-      "image": "/public/assets/Apple EarPods with Lightning Connector.jpg",
+      "image": "/assets/Apple EarPods with Lightning Connector.jpg",
       "featured": false
     },
     {
@@ -362,9 +362,9 @@
       "type": "TWS",
       "price": 22990,
       "description": "Bluetooth Headphones, with Active Noise Cancellation, Adaptive Audio, Transparency Mode, Personalised Spatial Audio, USB-C Charging Case, Wireless Charging",
-      "image": "/public/assets/Apple AirPods Pro (2nd Generation).jpg",
+      "image": "/assets/Apple AirPods Pro (2nd Generation).jpg",
       "featured": true,
-      "noBG": "/public/assets/Apple AirPods Pro (2nd Generation) (No bg).png"
+      "noBG": "/assets/Apple AirPods Pro (2nd Generation) (No bg).png"
     },
     {
       "id": "23",
@@ -373,7 +373,7 @@
       "type": "TWS",
       "price": 16990,
       "description": "Bluetooth Headphones, with Active Noise Cancellation, Adaptive Audio, Transparency Mode, Personalised Spatial Audio, USB-C Charging Case, Wireless Charging",
-      "image": "/public/assets/Apple AirPods 4.jpg",
+      "image": "/assets/Apple AirPods 4.jpg",
       "featured": false
     },
     {
@@ -383,7 +383,7 @@
       "type": "TWS",
       "price": 18998,
       "description": "Galaxy Ai , Adaptive ANC , Real-Time Interpreter , 24-Bit Hi-Fi Audio , Up to 37H Battery , Ip57",
-      "image": "/public/assets/Samsung Galaxy Buds3 Pro.jpg",
+      "image": "/assets/Samsung Galaxy Buds3 Pro.jpg",
       "featured": false
     },
     {
@@ -393,7 +393,7 @@
       "type": "Earphone",
       "price": 839,
       "description": "Type-C Connector",
-      "image": "/public/assets/Samsung Original IC050.jpg",
+      "image": "/assets/Samsung Original IC050.jpg",
       "featured": false
     },
     {
@@ -403,7 +403,7 @@
       "type": "TWS",
       "price": 839,
       "description": "Powerful Active Noise Cancellation , Enriched Bass Sound , Ergonomic Design , 30-Hour Battery Life",
-      "image": "/public/assets/Samsung Galaxy Buds FE (Graphite).jpg",
+      "image": "/assets/Samsung Galaxy Buds FE (Graphite).jpg",
       "featured": false
     }
   ],
@@ -420,7 +420,7 @@
             "type": "Headphone",
             "price": 59900,
             "description": "Wireless Over-Ear Headphones, Pro-Level Active Noise Cancellation, Transparency Mode, Personalised Spatial Audio, USB-C Charging, Bluetooth Headphones for iPhone ",
-            "image": "/public/assets/Apple AirPods Max.jpg",
+            "image": "/assets/Apple AirPods Max.jpg",
             "featured": false,
             "quantity": 1
           }
@@ -446,7 +446,7 @@
             "type": "Earphone",
             "price": 499,
             "description": "Wired Earphones,Type-C Jack, 10mm Drivers, Signature Sound, in-Line Microphone, Integrated Controls, Voice Assistant & 120cm Cable",
-            "image": "/public/assets/boAt Bassheads 300C.webp",
+            "image": "/assets/boAt Bassheads 300C.webp",
             "featured": false,
             "quantity": 1
           }
@@ -498,7 +498,7 @@
             "type": "Earphone",
             "price": 499,
             "description": "Wired Earphones,Type-C Jack, 10mm Drivers, Signature Sound, in-Line Microphone, Integrated Controls, Voice Assistant & 120cm Cable",
-            "image": "/public/assets/boAt Bassheads 300C.webp",
+            "image": "/assets/boAt Bassheads 300C.webp",
             "featured": false,
             "quantity": 1
           },
@@ -509,8 +509,8 @@
             "type": "TWS",
             "price": 799,
             "description": "50HRS Battery, Fast Charge, Dual Mics ENx Tech, Transparent LID, Low Latency, IPX4, IWP Tech, v5.3 Bluetooth Earbuds, TWS Ear Buds Wireless Earphones with mic ",
-            "image": "/public/assets/boAt Airdopes 311 Pro.webp",
-            "noBG": "/public/assets/boAt Airdopes 311 Pro.webp",
+            "image": "/assets/boAt Airdopes 311 Pro.webp",
+            "noBG": "/assets/boAt Airdopes 311 Pro.webp",
             "featured": true,
             "quantity": 1
           }
