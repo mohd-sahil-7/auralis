@@ -1,0 +1,89 @@
+.body{
+    display: flex;
+}
+.products{
+    padding: 5px;
+    width:100%;
+    background-color: #EEF4ED;
+}
+.img{
+    width: 20%;
+    background-color: white;
+    border-radius: 10px;
+}
+.product{
+    margin: 10px;
+    padding: 15px;
+    background-color: rgba(55, 158, 255, 0.193);
+    display: flex;
+    gap: 10px;
+    border-radius: 10px;
+}
+.productsCon{
+    padding: 10px;
+}
+.delete , .edit{
+    background-color: white;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 1px 3px black;
+    transition: all 0.5s ;
+}
+.delete:hover{
+    background-color: rgb(255, 222, 222);
+    box-shadow: 0 1px 5px black;
+}
+.edit:hover{ 
+    background-color: rgb(222, 236, 255);
+    box-shadow: 0 1px 5px black;
+}
+
+.form{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+.input{
+    border: 1px solid black;
+    padding: 10px ;
+    border-radius: 10px;
+}
+.input:focus{
+    outline: none;
+}
+.textarea{
+    padding: 10px;
+    resize: none;
+    overflow: auto;
+    width: 100%;
+    height: 30%;
+    border-radius: 5px;
+}
+.textarea:focus{
+    outline: none;
+}
+.editBox{
+    border-radius: 5px;
+    margin: 5px;
+    border: 1px solid black;
+}
+.editBox:focus{
+    outline: none;
+}
+.saveButton, .cancelButton{
+    margin: 5px;
+    border: none;
+    background-color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px black;
+    transition: all 0.5s ;
+}
+.saveButton:hover{
+    background-color: rgb(220, 255, 220);
+}
+.cancelButton:hover{
+    background-color: rgb(255, 220, 220);
+}

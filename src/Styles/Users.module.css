@@ -1,0 +1,39 @@
+.body{
+    display: flex;
+    min-height: 100vh;
+}
+.users{
+    padding: 5px;
+    width: 100%;
+    background-color: #EEF4ED;
+}
+.user{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(55, 158, 255, 0.193);
+}
+.usersCon{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+.button, .Rbutton{
+    background-color: white;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 1px 3px black;
+    transition: all 0.5s ;
+}
+.button:hover{
+    box-shadow: 0 1px 5px black;
+    background-color: rgb(255, 222, 222);
+
+}
+.Rbutton:hover{
+    box-shadow: 0 1px 5px black;
+    background-color: rgb(222, 255, 243);
+
+}

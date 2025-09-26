@@ -1,0 +1,70 @@
+.orderBody{
+    height: 100vh;
+    background-color: #EEF4ED ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.orderDetailsCon{
+    width: 50%;
+}
+.orderForm{
+    box-shadow: 0 2px 5px black;
+    background-color: white;
+    color: #13315C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 50px 0;
+    border-radius: 15px;
+}
+label{
+    font-weight: bold;
+}
+.input{
+    width: 90%;
+    border-radius: 10px;
+    padding: 5px 10px;
+    border: 1px solid black;
+}
+.input::placeholder{
+    color: #000000;
+}
+.input:focus{
+    border: 2px solid black;
+    outline: none
+}
+.submit{
+    width: 90%;
+    border-radius: 10px;
+    padding: 5px 10px;
+    border: 1px solid black;
+    background-color: #35628c;
+    color: #000000;
+    font-weight: bold;
+}
+.submit:active{
+    background-color: #4e79a0;
+}
+.invoiceCon{
+    height: 100vh;
+    background-color: #EEF4ED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.invoice{
+    background-color:#EEF4ED ;
+    border:2px solid black;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.invoiceIMG{
+    background-color: white;
+    width: 10%;
+    float: left;
+    margin: 5px;
+}

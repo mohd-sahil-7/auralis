@@ -1,0 +1,53 @@
+.body{
+    height: 100%;
+    min-height: 100vh;
+    background-color: #EEF4ED;
+    display: flex;
+    justify-content: baseline;
+}
+.details{
+    height: 100%;
+    width: 40%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+.previousOrders{
+    height: 100%;
+    width: 50%;
+    padding: 5px;
+}
+.pfp{
+    margin:10px;
+    width: 25%;
+    border-radius: 100%;
+}
+.button{
+    background-color: #8DA9C4;
+    margin: 5px;
+    padding: 10px 25px;
+    box-shadow: 0 1px 2px black;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+.button:hover{
+    background-color: #cadced;
+    box-shadow: 0 1px 5px black;
+}
+.img{
+    width: 20%;
+    background-color: white;
+    border-radius: 10%;
+}
+.products{
+    display: flex;
+    gap: 10px;
+}
+.ordersCon{
+    margin:10px 0;
+    padding: 15px;
+    border: 2px solid black;
+}
+
