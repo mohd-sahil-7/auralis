@@ -38,7 +38,7 @@ function ProductDetails() {
    
     const updatedUser = { ...user, cart: updatedCart };
     localStorage.setItem("user", JSON.stringify(updatedUser));
-    axios.patch(`http://localhost:3000/users/${user.id}`,{cart:updatedCart})
+    axios.patch(`https://auralis-2.onrender.com/users/${user.id}`,{cart:updatedCart})
     toast.success("Product added to cart")
   };
 
@@ -65,14 +65,14 @@ function ProductDetails() {
 
     const updatedUser = {...user, wishlist: updatedWishlist}
     localStorage.setItem("user", JSON.stringify(updatedUser))
-    axios.patch(`http://localhost:3000/users/${user.id}`,{wishlist:updatedWishlist})
+    axios.patch(`https://auralis-2.onrender.com/users/${user.id}`,{wishlist:updatedWishlist})
     
 
   }
 
     
     useEffect(()=>{
-        axios.get(`http://localhost:3000/products/${id}`).then((res) =>{ 
+        axios.get(`https://auralis-2.onrender.com/products/${id}`).then((res) =>{ 
           setProduct(res.data)
           setFeatures(res.data.features)})
     },[id])

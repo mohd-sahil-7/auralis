@@ -9,10 +9,10 @@ function Banner() {
     const nav = useNavigate()
 
   useEffect(()=>{
-    axios.get("http://localhost:3000/products").then(res=> setIMG(res.data))
+    axios.get("https://auralis-2.onrender.com/products").then(res=> setIMG(res.data))
   },[])  
   useEffect(()=>{
-    axios.get("http://localhost:3000/products?featured=true").then((arr)=> setFdItem(arr.data))
+    axios.get("https://auralis-2.onrender.com/products?featured=true").then((arr)=> setFdItem(arr.data))
   },[])  
   
   // Cart Functionality
@@ -42,7 +42,7 @@ function Banner() {
     
     const updatedUser = { ...user, cart: updatedCart };
     localStorage.setItem("user", JSON.stringify(updatedUser));
-    axios.patch(`http://localhost:3000/users/${user.id}`,{cart:updatedCart})
+    axios.patch(`https://auralis-2.onrender.com/users/${user.id}`,{cart:updatedCart})
     toast.success("Product added to cart ")
   };
 

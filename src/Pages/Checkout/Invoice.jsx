@@ -18,7 +18,7 @@ function Invoice() {
         const updatedUser = { ...user, cart: [] };
         localStorage.setItem("user", JSON.stringify(updatedUser));
 
-        axios.patch(`http://localhost:3000/users/${user.id}`, { cart: [] });
+        axios.patch(`https://auralis-2.onrender.com/users/${user.id}`, { cart: [] });
       
     }
   }, []);

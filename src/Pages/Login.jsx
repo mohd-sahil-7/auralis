@@ -27,7 +27,7 @@ function Login() {
                 setError(error)
             }
             if(Object.keys(error).length==0){
-                axios.get(`http://localhost:3000/users?email=${email}&pass=${pass}`).then((res) =>{
+                axios.get(`https://auralis-2.onrender.com/users?email=${email}&pass=${pass}`).then((res) =>{
                     if(res.data.length===0){
                     setEmail("")
                     setPass("")

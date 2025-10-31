@@ -33,7 +33,7 @@ function Wishlist() {
    
     const updatedUser = { ...user, cart: updatedCart };
     localStorage.setItem("user", JSON.stringify(updatedUser));
-    axios.patch(`http://localhost:3000/users/${user.id}`,{cart:updatedCart})
+    axios.patch(`https://auralis-2.onrender.com/users/${user.id}`,{cart:updatedCart})
      toast.success("Product added to cart")
     
   };
@@ -44,7 +44,7 @@ function Wishlist() {
     setWishlist(newWishlist)
 
 
-  axios.patch(`http://localhost:3000/users/${user.id}`, {wishlist:newWishlist})
+  axios.patch(`https://auralis-2.onrender.com/users/${user.id}`, {wishlist:newWishlist})
   localStorage.setItem("user", JSON.stringify(updatedUser))
   }
 

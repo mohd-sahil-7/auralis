@@ -38,8 +38,8 @@ function Checkout() {
         };
         localStorage.setItem("user", JSON.stringify(updatedUser))
         sessionStorage.setItem("orderDetails", JSON.stringify(orderDetails))
-        axios.post("http://localhost:3000/allOrders",{orderDetails})
-        axios.patch(`http://localhost:3000/users/${user.id}`, {cart:[], orders:[...(user.orders || []), orderDetails]})
+        axios.post("https://auralis-2.onrender.com/allOrders",{orderDetails})
+        axios.patch(`https://auralis-2.onrender.com/users/${user.id}`, {cart:[], orders:[...(user.orders || []), orderDetails]})
         toast.success("Order placed successfully")
         nav('/Invoice');
         }

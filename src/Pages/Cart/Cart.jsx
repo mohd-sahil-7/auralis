@@ -16,7 +16,7 @@ function Cart() {
     const updatedUser =  {...user, cart:newCart}
     setCart(newCart);
 
-    axios.patch(`http://localhost:3000/users/${user.id}` , {cart:newCart})
+    axios.patch(`https://auralis-2.onrender.com/users/${user.id}` , {cart:newCart})
     localStorage.setItem("user", JSON.stringify(updatedUser))
     toast.success("Item Removed Successfully")
   }
@@ -30,7 +30,7 @@ function Cart() {
     const updatedUser = {...user,cart:newCart}
     setCart(newCart);
 
-    axios.patch(`http://localhost:3000/users/${user.id}` , {cart:newCart})
+    axios.patch(`https://auralis-2.onrender.com/users/${user.id}` , {cart:newCart})
     localStorage.setItem("user", JSON.stringify(updatedUser))
 
 
@@ -50,7 +50,7 @@ function Cart() {
     const updatedUser = {...user,cart:newCart}
     setCart(newCart);
 
-    axios.patch(`http://localhost:3000/users/${user.id}` , {cart:newCart})
+    axios.patch(`https://auralis-2.onrender.com/${user.id}` , {cart:newCart})
     localStorage.setItem("user", JSON.stringify(updatedUser))
 
 

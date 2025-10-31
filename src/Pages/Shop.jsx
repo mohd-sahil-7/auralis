@@ -39,12 +39,12 @@ function Shop() {
 
     const updatedUser = {...user, cart:updatedCart};
     localStorage.setItem("user", JSON.stringify(updatedUser));
-    axios.patch(`http://localhost:3000/users/${user.id}`,{cart:updatedCart})
+    axios.patch(`https://auralis-2.onrender.com/users/${user.id}`,{cart:updatedCart})
     toast.success("Product added to cart")
     
   };
 
-  useEffect(()=>{axios.get("http://localhost:3000/products").then((res)=>{  
+  useEffect(()=>{axios.get("https://auralis-2.onrender.com/products").then((res)=>{  
     setItems(res.data)
     setFilteredItems(res.data)
    })},[]) 

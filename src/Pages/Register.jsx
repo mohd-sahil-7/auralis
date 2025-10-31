@@ -39,10 +39,10 @@ function handleSubmit(){
     
   }
   if(Object.keys(error).length==0){
-    axios.get(`http://localhost:3000/users?email=${email}`).then((res)=>{
+    axios.get(`https://auralis-2.onrender.com/users?email=${email}`).then((res)=>{
       
       if(res.data.length ===0){
-        axios.post('http://localhost:3000/users',{
+        axios.post('https://auralis-2.onrender.com/users',{
         email,
         userName,
         pass,
