@@ -16,35 +16,11 @@
       "email": "mohdsahil@gmail.com",
       "userName": "sahil",
       "pass": "1918912",
-      "role": "admin",
-      "status": "active",
+      "role": "user",
+      "status": "blocked",
       "wishlist": [],
       "cart": [],
-      "orders": [
-        {
-          "id": 1758791271958,
-          "cart": [
-            {
-              "id": "19",
-              "name": "Apple AirPods Max",
-              "brand": "Apple",
-              "type": "Headphone",
-              "price": 59900,
-              "description": "Wireless Over-Ear Headphones, Pro-Level Active Noise Cancellation, Transparency Mode, Personalised Spatial Audio, USB-C Charging, Bluetooth Headphones for iPhone ",
-              "image": "/assets/Apple AirPods Max.jpg",
-              "featured": false,
-              "quantity": 1
-            }
-          ],
-          "total": 59900,
-          "details": {
-            "name": "Mohammed sahil",
-            "address": "Ramapuram",
-            "phone": "8075834041"
-          },
-          "date": "2025-09-25T09:07:51.958Z"
-        }
-      ]
+      "orders": []
     },
     {
       "id": "ffc0",
@@ -55,89 +31,18 @@
       "status": "active",
       "wishlist": [],
       "cart": [],
-      "orders": [
-        {
-          "id": 1758864049727,
-          "cart": [
-            {
-              "id": "3",
-              "name": "boAt Bassheads 300C",
-              "brand": "boAt",
-              "type": "Earphone",
-              "price": 499,
-              "description": "Wired Earphones,Type-C Jack, 10mm Drivers, Signature Sound, in-Line Microphone, Integrated Controls, Voice Assistant & 120cm Cable",
-              "image": "/assets/boAt Bassheads 300C.webp",
-              "featured": false,
-              "quantity": 1
-            }
-          ],
-          "total": 499,
-          "details": {
-            "name": "Mohammed Sahil",
-            "address": "Ramapuram",
-            "phone": "8075834041"
-          },
-          "date": "2025-09-26T05:20:49.727Z"
-        },
-        {
-          "id": 1758864585189,
-          "cart": [
-            {
-              "id": "2",
-              "name": "boAt Bassheads 900 Pro",
-              "brand": "boAt",
-              "type": "Headphone",
-              "price": 1499,
-              "description": "40Mm Drivers, Lightweight Foldable Design, Over Ear, Remote Control, Unidirectional Retractable Mic, Adjustable Headband & USB Type-A Compatibility",
-              "image": "/assets/boAt Bassheads 900 Pro.webp",
-              "featured": false,
-              "quantity": 1
-            }
-          ],
-          "total": 1499,
-          "details": {
-            "name": "Mohammed Sahil",
-            "address": "Ramapuram",
-            "phone": "8075834041"
-          },
-          "date": "2025-09-26T05:29:45.189Z"
-        },
-        {
-          "id": 1758864745735,
-          "cart": [
-            {
-              "id": "3",
-              "name": "boAt Bassheads 300C",
-              "brand": "boAt",
-              "type": "Earphone",
-              "price": 499,
-              "description": "Wired Earphones,Type-C Jack, 10mm Drivers, Signature Sound, in-Line Microphone, Integrated Controls, Voice Assistant & 120cm Cable",
-              "image": "/assets/boAt Bassheads 300C.webp",
-              "featured": false,
-              "quantity": 1
-            },
-            {
-              "id": "4",
-              "name": "boAt Airdopes 311 PRO",
-              "brand": "boAt",
-              "type": "TWS",
-              "price": 799,
-              "description": "50HRS Battery, Fast Charge, Dual Mics ENx Tech, Transparent LID, Low Latency, IPX4, IWP Tech, v5.3 Bluetooth Earbuds, TWS Ear Buds Wireless Earphones with mic ",
-              "image": "/assets/boAt Airdopes 311 Pro.webp",
-              "noBG": "/assets/boAt Airdopes 311 Pro.webp",
-              "featured": true,
-              "quantity": 1
-            }
-          ],
-          "total": 1298,
-          "details": {
-            "name": "Mohammed Sahil",
-            "address": "Ramapuram",
-            "phone": "8075834041"
-          },
-          "date": "2025-09-26T05:32:25.735Z"
-        }
-      ]
+      "orders": []
+    },
+    {
+      "id": "c87c",
+      "email": "admin@gmail.com",
+      "userName": "Admin",
+      "pass": "123",
+      "role": "admin",
+      "status": "active",
+      "wishlist": [],
+      "cart": [],
+      "orders": []
     }
   ],
   "products": [
@@ -148,8 +53,8 @@
       "type": "Headphone",
       "price": 1499,
       "description": "60Hrs Battery, 40Mm Drivers, 40Ms Low Latency, Enx Tech, Integrated Controls, V5.4 Bluetooth Headphones, Wireless Over Ear Headphone with Mic ",
-      "image": "/assets/boAt Rockerz 412.webp",
-      "noBG": "/assets/boAt Rockerz 412 (No bg).png",
+      "image": "https://res.cloudinary.com/dvgb15ewc/image/upload/v1761294174/boAt_Rockerz_412_s7lgvq.webp",
+      "noBG": "https://res.cloudinary.com/dvgb15ewc/image/upload/v1761294174/boAt_Rockerz_412_No_bg_vrqfdo.png",
       "featured": false
     },
     {
@@ -159,7 +64,7 @@
       "type": "Headphone",
       "price": 1499,
       "description": "40Mm Drivers, Lightweight Foldable Design, Over Ear, Remote Control, Unidirectional Retractable Mic, Adjustable Headband & USB Type-A Compatibility",
-      "image": "/assets/boAt Bassheads 900 Pro.webp",
+      "image": "https://res.cloudinary.com/dvgb15ewc/image/upload/v1761294167/boAt_Bassheads_900_Pro_vkd31b.webp",
       "featured": false
     },
     {
@@ -169,7 +74,7 @@
       "type": "Earphone",
       "price": 499,
       "description": "Wired Earphones,Type-C Jack, 10mm Drivers, Signature Sound, in-Line Microphone, Integrated Controls, Voice Assistant & 120cm Cable",
-      "image": "/assets/boAt Bassheads 300C.webp",
+      "image": "https://res.cloudinary.com/dvgb15ewc/image/upload/v1761294166/boAt_Bassheads_300C_fnt7ld.webp",
       "featured": false
     },
     {
@@ -179,8 +84,8 @@
       "type": "TWS",
       "price": 799,
       "description": "50HRS Battery, Fast Charge, Dual Mics ENx Tech, Transparent LID, Low Latency, IPX4, IWP Tech, v5.3 Bluetooth Earbuds, TWS Ear Buds Wireless Earphones with mic ",
-      "image": "/assets/boAt Airdopes 311 Pro.webp",
-      "noBG": "/assets/boAt Airdopes 311 Pro.webp",
+      "image": "https://res.cloudinary.com/dvgb15ewc/image/upload/v1761294166/boAt_Airdopes_311_Pro_vwddqs.webp",
+      "noBG": "https://res.cloudinary.com/dvgb15ewc/image/upload/v1761294166/boAt_Airdopes_311_Pro_vwddqs.webp",
       "featured": true
     },
     {
@@ -190,7 +95,7 @@
       "type": "Neckband",
       "price": 1799,
       "description": "100HRS Battery,Spatial Audio,ANC(~32Db),Fast Charge(10Mins=24HRS),3Mics Aienx,13Mm Drivers,Power Earbuds,Bluetooth Neckband,in Ear Wireless with Mic Earphones ",
-      "image": "/assets/boAt Rockerz 255 ANC.webp",
+      "image": "https://res.cloudinary.com/dvgb15ewc/image/upload/v1761294167/boAt_Rockerz_255_ANC_athkfb.webp",
       "featured": false
     },
     {
@@ -200,7 +105,7 @@
       "type": "Headphone",
       "price": 999,
       "description": " Wireless Over Ear Headphone, Upto 60 Hours Backup, Gaming Mode, Dual Pairing, Rapid Charge, BT v5.4, AUX, 3 EQ Modes, ENC for Callling, Voice Assistant, Deep Bass",
-      "image": "/assets/ZEBRONICS Thunder NEO.jpg",
+      "image": "https://res.cloudinary.com/dvgb15ewc/image/upload/v1761294156/ZEBRONICS_Thunder_NEO_yoidhe.jpg",
       "featured": false
     },
     {
@@ -210,7 +115,7 @@
       "type": "Headphone",
       "price": 799,
       "description": "3.5mm Jack, Built in Microphone for Calling, 1.5 Meter Cable, Soft Ear Cushion, Adjustable Headband, Foldable Ear Cups and Lightweight Design",
-      "image": "/assets/ZEBRONICS Zeb-Storm.jpg",
+      "image": "https://res.cloudinary.com/dvgb15ewc/image/upload/v1761294166/ZEBRONICS_Zeb-Storm_rixwvp.jpg",
       "featured": false
     },
     {
@@ -220,7 +125,7 @@
       "type": "Earphone",
       "price": 299,
       "description": "in Ear Type-C Wired Headphones with in-Line Mic, Metallic Design, Volume Control, 1.2M Cable, 10Mm Driver",
-      "image": "/assets/ZEBRONICS Buds C10.jpg",
+      "image": "https://res.cloudinary.com/dvgb15ewc/image/upload/v1761294156/ZEBRONICS_Buds_C10_oittx8.jpg",
       "featured": false
     },
     {
@@ -230,8 +135,8 @@
       "type": "TWS",
       "price": 799,
       "description": "Upto 40 Hrs Backup, Dual EQ, Quad MIC ENC, 10mm Bass Drivers, Fast Charging, Bluetooth, Flash Connect,40ms Low Latency Gaming, LED Battery Indicator ",
-      "image": "/assets/ZEBRONICS PODS K2.jpg",
-      "noBG": "/assets/ZEBRONICS PODS K2 (No bg).png",
+      "image": "https://res.cloudinary.com/dvgb15ewc/image/upload/v1761294156/ZEBRONICS_PODS_K2_lzmiy1.jpg",
+      "noBG": "https://res.cloudinary.com/dvgb15ewc/image/upload/v1761294156/ZEBRONICS_PODS_K2_No_bg_g1ciog.png",
       "featured": true
     },
     {
@@ -241,7 +146,7 @@
       "type": "Neckband",
       "price": 499,
       "description": "Rapid Charge, Dual Pairing, Magnetic earpiece,Voice Assistant with Mic",
-      "image": "/assets/ZEBRONICS Zeb Evolve.jpg",
+      "image": "https://res.cloudinary.com/dvgb15ewc/image/upload/v1761294166/ZEBRONICS_Zeb_Evolve_y6rbxp.jpg",
       "featured": false
     },
     {
@@ -251,7 +156,7 @@
       "type": "Headphone",
       "price": 1999,
       "description": "up to 40 Hours Playtime, Pure Bass, Quick Charging, Dual Pairing, Bluetooth 5.0 & Voice Assistant Support for Mobile Phones",
-      "image": "/assets/JBL Tune 510BT.jpg",
+      "image": "https://res.cloudinary.com/dvgb15ewc/image/upload/v1761294155/JBL_Tune_510BT_nol2an.jpg",
       "featured": false
     },
     {
@@ -261,7 +166,7 @@
       "type": "Headphone",
       "price": 1999,
       "description": "Wired Over Ear Gaming Headphones with Mic, 40mm Realistic Dynamic Drivers, Detachable Boom Mic, 1kHz Sensitivity, Memory Foam Cushioning, PC/Mobile/PS/Xbox/Nintendo/VR Compatible",
-      "image": "/assets/JBL Quantum 100 Wired Over Ear Gaming Headphones.jpg",
+      "image": "https://res.cloudinary.com/dvgb15ewc/image/upload/v1761294154/JBL_Quantum_100_Wired_Over_Ear_Gaming_Headphones_x3yvnk.jpg",
       "featured": false
     },
     {
@@ -271,7 +176,7 @@
       "type": "Earphone",
       "price": 449,
       "description": "Wired in Ear Headphones with Mic, One Button Multi-Function Remote, Lightweight & Comfortable fit",
-      "image": "/assets/JBL C50HI.jpg",
+      "image": "https://res.cloudinary.com/dvgb15ewc/image/upload/v1761294154/JBL_C50HI_abixmk.jpg",
       "featured": false
     },
     {
@@ -281,8 +186,8 @@
       "type": "TWS",
       "price": 3999,
       "description": "Wireless BluetoothV5.3, Active Noise Cancellation Earbuds,Multi Connect, App for Customized Extra Bass Eq, Relax Mode,Speed Charge, 40H Playback, Fast Pair,4 Mics,IP54",
-      "image": "/assets/JBL Wave Beam 2 Ear Buds.jpg",
-      "noBG": "/assets/JBL Wave Beam 2 Ear Buds (No bg).png",
+      "image": "https://res.cloudinary.com/dvgb15ewc/image/upload/v1761294154/JBL_Wave_Beam_2_Ear_Buds_r9iahe.jpg",
+      "noBG": "https://res.cloudinary.com/dvgb15ewc/image/upload/v1761294155/JBL_Wave_Beam_2_Ear_Buds_No_bg_wvfl4n.png",
       "featured": true
     },
     {
@@ -292,7 +197,7 @@
       "type": "Headphone",
       "price": 1490,
       "description": "On-the-ear (Circumaural), Closed Back, Wired, 10 Hz (Min) - 24 kHz (Max) Frequency Response, 24 ohm Impedance, 98 dB/mW (Power On) Sensitivity ,1.2 m L-shape Cord",
-      "image": "/assets/Sony MDR-ZX110AP.jpg",
+      "image": "https://res.cloudinary.com/dvgb15ewc/image/upload/v1761294154/Sony_MDR-ZX110AP_lojxwd.jpg",
       "featured": false
     },
     {
@@ -302,7 +207,7 @@
       "type": "Earphone",
       "price": 1499,
       "description": "EX Stereo Headphones with Mic",
-      "image": "/assets/Sony MDR-EX15AP EX Stereo Headphones.jpg",
+      "image": "https://res.cloudinary.com/dvgb15ewc/image/upload/v1761294155/Sony_MDR-EX15AP_EX_Stereo_Headphones_wz5aui.jpg",
       "featured": false
     },
     {
@@ -312,7 +217,7 @@
       "type": "TWS",
       "price": 4220,
       "description": " Wireless Bluetooth Earbuds with Mic, TWS, in Ear, Ambient Sound Mode, Small and Comfortable, IPX4, Quick Charge, Multipoint Connectivity, Customized EQ, Up to 22 Hours Battery",
-      "image": "/assets/Sony WF-C510.jpg",
+      "image": "https://res.cloudinary.com/dvgb15ewc/image/upload/v1761294154/Sony_WF-C510_otoqln.jpg",
       "featured": false
     },
     {
@@ -322,7 +227,7 @@
       "type": "Neckband",
       "price": 1699,
       "description": "Wireless Neckband with Customizable Equalizer for Deep Bass & 25 Hrs Battery, DSEE-Upscale, Splash Proof, 360RA, Fast Pair, in Ear Bluetooth Headset with Mic for Phone Calls",
-      "image": "/assets/Sony WI-C100.jpg",
+      "image": "https://res.cloudinary.com/dvgb15ewc/image/upload/v1761294156/Sony_WI-C100_xeuedy.jpg",
       "featured": false
     },
     {
@@ -332,7 +237,7 @@
       "type": "Headphone",
       "price": 59900,
       "description": "Wireless Over-Ear Headphones, Pro-Level Active Noise Cancellation, Transparency Mode, Personalised Spatial Audio, USB-C Charging, Bluetooth Headphones for iPhone ",
-      "image": "/assets/Apple AirPods Max.jpg",
+      "image": "https://res.cloudinary.com/dvgb15ewc/image/upload/v1761294166/Apple_AirPods_Max_a9shvt.jpg",
       "featured": false
     },
     {
@@ -342,7 +247,7 @@
       "type": "Earphone",
       "price": 1649,
       "description": "USB-C deliver up to 2x more Active Noise Cancellation than the previous generation, with Transparency mode that enables you to hear the world around you, and all-new Adaptive Audio that dynamically tailors noise control to your environment",
-      "image": "../assets/Apple EarPods (USB-C)​​​​​​​.jpg",
+      "image": "https://res.cloudinary.com/dvgb15ewc/image/upload/v1761294166/Apple_EarPods_USB-C_qhb2e4.jpg",
       "featured": false
     },
     {
@@ -352,7 +257,7 @@
       "type": "Earphone",
       "price": 1599,
       "description": " Deliver up to 2x more Active Noise Cancellation than the previous generation, with Transparency mode that enables you to hear the world around you, and all-new Adaptive Audio that dynamically tailors noise control to your environment",
-      "image": "/assets/Apple EarPods with Lightning Connector.jpg",
+      "image": "https://res.cloudinary.com/dvgb15ewc/image/upload/v1761294166/Apple_EarPods_with_Lightning_Connector_tmehf9.jpg",
       "featured": false
     },
     {
@@ -362,9 +267,9 @@
       "type": "TWS",
       "price": 22990,
       "description": "Bluetooth Headphones, with Active Noise Cancellation, Adaptive Audio, Transparency Mode, Personalised Spatial Audio, USB-C Charging Case, Wireless Charging",
-      "image": "/assets/Apple AirPods Pro (2nd Generation).jpg",
+      "image": "https://res.cloudinary.com/dvgb15ewc/image/upload/v1761294166/Apple_AirPods_Pro_2nd_Generation_sbqhbo.jpg",
       "featured": true,
-      "noBG": "/assets/Apple AirPods Pro (2nd Generation) (No bg).png"
+      "noBG": "https://res.cloudinary.com/dvgb15ewc/image/upload/v1761294166/Apple_AirPods_Pro_2nd_Generation_No_bg_ozmcuh.png"
     },
     {
       "id": "23",
@@ -373,12 +278,12 @@
       "type": "TWS",
       "price": 16990,
       "description": "Bluetooth Headphones, with Active Noise Cancellation, Adaptive Audio, Transparency Mode, Personalised Spatial Audio, USB-C Charging Case, Wireless Charging",
-      "image": "/assets/Apple AirPods 4.jpg",
+      "image": "https://res.cloudinary.com/dvgb15ewc/image/upload/v1761294165/Apple_AirPods_4_bczmar.jpg",
       "featured": false
     },
     {
       "id": "24",
-      "name": "Samsung Galaxy Buds 3 Pro",
+      "name": "https://res.cloudinary.com/dvgb15ewc/image/upload/v1761294155/Samsung_Galaxy_Buds3_Pro_znal0z.jpg",
       "brand": "Samsung",
       "type": "TWS",
       "price": 18998,
@@ -393,7 +298,7 @@
       "type": "Earphone",
       "price": 839,
       "description": "Type-C Connector",
-      "image": "/assets/Samsung Original IC050.jpg",
+      "image": "https://res.cloudinary.com/dvgb15ewc/image/upload/v1761294155/Samsung_Original_IC050_hjfspa.jpg",
       "featured": false
     },
     {
@@ -403,126 +308,10 @@
       "type": "TWS",
       "price": 839,
       "description": "Powerful Active Noise Cancellation , Enriched Bass Sound , Ergonomic Design , 30-Hour Battery Life",
-      "image": "/assets/Samsung Galaxy Buds FE (Graphite).jpg",
+      "image": "https://res.cloudinary.com/dvgb15ewc/image/upload/v1761294155/Samsung_Galaxy_Buds_FE_Graphite_u0rmb9.jpg",
       "featured": false
     }
   ],
   "allOrders": [
-    {
-      "id": "65d8",
-      "orderDetails": {
-        "id": 1758791271958,
-        "cart": [
-          {
-            "id": "19",
-            "name": "Apple AirPods Max",
-            "brand": "Apple",
-            "type": "Headphone",
-            "price": 59900,
-            "description": "Wireless Over-Ear Headphones, Pro-Level Active Noise Cancellation, Transparency Mode, Personalised Spatial Audio, USB-C Charging, Bluetooth Headphones for iPhone ",
-            "image": "/assets/Apple AirPods Max.jpg",
-            "featured": false,
-            "quantity": 1
-          }
-        ],
-        "total": 59900,
-        "details": {
-          "name": "Mohammed sahil",
-          "address": "Ramapuram",
-          "phone": "8075834041"
-        },
-        "date": "2025-09-25T09:07:51.958Z"
-      }
-    },
-    {
-      "id": "df8b",
-      "orderDetails": {
-        "id": 1758864049727,
-        "cart": [
-          {
-            "id": "3",
-            "name": "boAt Bassheads 300C",
-            "brand": "boAt",
-            "type": "Earphone",
-            "price": 499,
-            "description": "Wired Earphones,Type-C Jack, 10mm Drivers, Signature Sound, in-Line Microphone, Integrated Controls, Voice Assistant & 120cm Cable",
-            "image": "/assets/boAt Bassheads 300C.webp",
-            "featured": false,
-            "quantity": 1
-          }
-        ],
-        "total": 499,
-        "details": {
-          "name": "Mohammed Sahil",
-          "address": "Ramapuram",
-          "phone": "8075834041"
-        },
-        "date": "2025-09-26T05:20:49.727Z"
-      }
-    },
-    {
-      "id": "cd51",
-      "orderDetails": {
-        "id": 1758864585189,
-        "cart": [
-          {
-            "id": "2",
-            "name": "boAt Bassheads 900 Pro",
-            "brand": "boAt",
-            "type": "Headphone",
-            "price": 1499,
-            "description": "40Mm Drivers, Lightweight Foldable Design, Over Ear, Remote Control, Unidirectional Retractable Mic, Adjustable Headband & USB Type-A Compatibility",
-            "image": "/assets/boAt Bassheads 900 Pro.webp",
-            "featured": false,
-            "quantity": 1
-          }
-        ],
-        "total": 1499,
-        "details": {
-          "name": "Mohammed Sahil",
-          "address": "Ramapuram",
-          "phone": "8075834041"
-        },
-        "date": "2025-09-26T05:29:45.189Z"
-      }
-    },
-    {
-      "id": "2767",
-      "orderDetails": {
-        "id": 1758864745735,
-        "cart": [
-          {
-            "id": "3",
-            "name": "boAt Bassheads 300C",
-            "brand": "boAt",
-            "type": "Earphone",
-            "price": 499,
-            "description": "Wired Earphones,Type-C Jack, 10mm Drivers, Signature Sound, in-Line Microphone, Integrated Controls, Voice Assistant & 120cm Cable",
-            "image": "/assets/boAt Bassheads 300C.webp",
-            "featured": false,
-            "quantity": 1
-          },
-          {
-            "id": "4",
-            "name": "boAt Airdopes 311 PRO",
-            "brand": "boAt",
-            "type": "TWS",
-            "price": 799,
-            "description": "50HRS Battery, Fast Charge, Dual Mics ENx Tech, Transparent LID, Low Latency, IPX4, IWP Tech, v5.3 Bluetooth Earbuds, TWS Ear Buds Wireless Earphones with mic ",
-            "image": "/assets/boAt Airdopes 311 Pro.webp",
-            "noBG": "/assets/boAt Airdopes 311 Pro.webp",
-            "featured": true,
-            "quantity": 1
-          }
-        ],
-        "total": 1298,
-        "details": {
-          "name": "Mohammed Sahil",
-          "address": "Ramapuram",
-          "phone": "8075834041"
-        },
-        "date": "2025-09-26T05:32:25.735Z"
-      }
-    }
-  ]
+    ]
 }

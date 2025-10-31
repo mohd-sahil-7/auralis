@@ -16,7 +16,7 @@ function Dashboard() {
 
   return (
     <div className={styles.body}> 
-      <AdminNav/>
+      <AdminNav/>   
       <div className={styles.details}>
 
         <div className={styles.tUsers}>
