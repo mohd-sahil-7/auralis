@@ -8,14 +8,14 @@ function Users() {
     const [users,setUsers] = useState([]);
     const current = JSON.parse(localStorage.getItem("user"))
     useEffect(()=> {
-      axios.get("http://localhost:3000/users").then(res=> setUsers(res.data))
+      axios.get("https://auralis-2.onrender.com/users").then(res=> setUsers(res.data))
     },[])
     
 
     const toggleBlock = (id,currentStatus) =>{
       const status = currentStatus=== "blocked" ? "active" : "blocked"
 
-      axios.patch(`http://localhost:3000/users/${id}`, {status : status})
+      axios.patch(`https://auralis-2.onrender.com/users/${id}`, {status : status})
         .then(()=>{
           setUsers(users.map((u)=>
           u.id===id? {...u, status:status}: u ));
@@ -25,7 +25,7 @@ function Users() {
     const toggleRole = (id,currentRole) =>{
       const role = currentRole=== "admin" ? "user" : "admin"
 
-      axios.patch(`http://localhost:3000/users/${id}`, {role : role})
+      axios.patch(`https://auralis-2.onrender.com/users/${id}`, {role : role})
         .then(()=>{
           setUsers(users.map((u)=>
           u.id===id? {...u, role:role}: u ));
@@ -35,7 +35,7 @@ function Users() {
 
     const removeUser = (id) => {
       const newUsers = users.filter(u => u.id !== id)
-      axios.delete(`http://localhost:3000/users/${id}`)
+      axios.delete(`https://auralis-2.onrender.com/users/${id}`)
        .then(setUsers(newUsers))
        toast.success("Removed user successfully")
     }

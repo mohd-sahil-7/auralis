@@ -7,9 +7,9 @@ function Dashboard() {
   const [users,setUsers] = useState([]);
   const [products,setProducts] = useState([]);
   const [orders, setOrders] = useState([]);
-  axios.get("http://localhost:3000/users").then(res=> setUsers(res.data))
-  axios.get("http://localhost:3000/products").then(res=> setProducts(res.data))
-  axios.get("http://localhost:3000/allOrders").then(res=> setOrders(res.data))
+  axios.get("https://auralis-2.onrender.com/users").then(res=> setUsers(res.data))
+  axios.get("https://auralis-2.onrender.com/products").then(res=> setProducts(res.data))
+  axios.get("https://auralis-2.onrender.com/allOrders").then(res=> setOrders(res.data))
 
   const blocked = users.filter(i => i.status=="blocked")
   const revenue = orders.reduce((acc, curr)=> acc = acc + curr.orderDetails["total"],0)

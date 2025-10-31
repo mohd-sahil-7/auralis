@@ -14,12 +14,12 @@ function Products() {
     image:""
   })
   const [editProduct, setEditProduct] = useState(null);
-  useEffect(()=>{axios.get("http://localhost:3000/products").then(res => setProducts(res.data))},[])
+  useEffect(()=>{axios.get("https://auralis-2.onrender.com/products").then(res => setProducts(res.data))},[])
   
   const addProduct = (e)=>{
     e.preventDefault();
 
-    axios.post("http://localhost:3000/products", newProduct)
+    axios.post("https://auralis-2.onrender.com/products", newProduct)
       .then(res=>{
         setProducts([...products,res.data]);
 
@@ -46,7 +46,7 @@ function Products() {
       }
 
   const removeProduct = (id) => {
-  axios.delete(`http://localhost:3000/products/${id}`)
+  axios.delete(`https://auralis-2.onrender.com/products/${id}`)
     .then(() => {
       setProducts(products.filter(p => p.id !== id));
       toast.success("Product removed successfully")
@@ -54,7 +54,7 @@ function Products() {
   }
 
   const updateProduct = (id) =>{
-    axios.patch(`http://localhost:3000/products/${id}`,editProduct)
+    axios.patch(`https://auralis-2.onrender.com/products/${id}`,editProduct)
     .then(()=>{
       setProducts(products.map(p=>p.id===id? editProduct : p));
       setEditProduct(null);
